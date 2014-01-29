@@ -26,16 +26,42 @@ installation
 
 Depending on the distribution different installation routines are available:
 	
-	1.) Linux Mandriva/Redhat
-	2.) Linux Ubuntu 
+	1.) Windows (incl. MPD, Apache, phpmpreloaded)
+	2.) Linux Mandriva/Redhat
+	3.) Linux Ubuntu 
+
 
 
 Anything doesn't work as discribed? contact us via the mailing list
 	
 	https://lists.sourceforge.net/lists/listinfo/phpmpreloaded-team 
 
+1.) Windows (MPD, Apache, phpmpreloaded)
+      
+      - Download and unpack MPD
+	  http://mpd.wikia.com/wiki/Server
+	  or
+	  http://sourceforge.net/projects/musicpd/files/mpd/0.16.8/mpd-0.16.8-win32.zip/download
+	  unpack all files to C:\MPD\
 
-1.) Installation for Mandriva/Redhat
+      - Configure and start MPD
+	  
+    
+      - Download and install 
+	  XAMPP (http://www.apachefriends.org/de/xampp-windows.html)
+	  install XAMPP to C:\XAMP\htdocs\
+
+      - Download phpmpreloaded
+	  http://sourceforge.net/projects/phpmpreloaded/files/latest/download
+	  unpack the phpmpreloaded files into a single folder
+	  move the folder to C:\XAMP\htdocs\ 
+
+      - Start your browser and go to
+	  http://localhost/phpmpreloaded/
+  
+      - done!
+
+2.) Installation for Mandriva/Redhat
 
 	a) download the file phpmpreloaded-1.xx.tar.gz
 
@@ -60,7 +86,7 @@ Anything doesn't work as discribed? contact us via the mailing list
 	 open a firefox/konqueror and browse to http://YOURSERVER/phpmpreloaded
 	 
 
-2.) Installation for Ubuntu 
+3.) Installation for Ubuntu 
 
 	a) download the file phpmpreloaded-1.xx.tar.gz
 
@@ -81,7 +107,9 @@ Anything doesn't work as discribed? contact us via the mailing list
 	g) now your web client is online !
 	 open a firefox/konqueror and browse to http://YOURSERVER/phpmpreloaded
 	 
-   
+
+
+      
 
 
 -------	
