@@ -9,7 +9,7 @@ error_reporting(E_ALL);
 $version = "0.2.3";     # Version of this client
 
 $langs = array(         # Available languages
-    "fr"    =>  "Fran�ais",
+    "fr"    =>  "Francais",
     "en"    =>  "English");
 
 // Display a string in chosen language
@@ -73,10 +73,11 @@ function get_pref_language_array($str_http_languages)
         $indicecandidat = $j;
       }
       else {
-        $q = ereg_replace('.*;q=(.*)', '\\1', $lang);
+	print_r($lang);
+        $q = preg_replace('/.*;q=(.*)/', '\\1', $lang);
 
         if ($q > $qcandidat) {
-          $candidat = ereg_replace('(.*);.*', '\\1', $lang); ;
+          $candidat = preg_replace('/(.*);.*/', '\\1', $lang); ;
           $qcandidat = $q;
           $indicecandidat = $j;
         }

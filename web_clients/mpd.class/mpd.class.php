@@ -1,8 +1,12 @@
 <?php
 /* 
+ * maintained by
+ * - Sven Ginka (sven.ginka@gmail.com) 
+ *
+ * Version mpd.class.php-1.3a 01/2013
+ * - added property db_playtime
  * 
- * Sven Ginka (sven.ginka@gmail.com) 03/2010
- * Version mpd.class.php-1.3
+ * Version mpd.class.php-1.3 03/2010
  * - take over from Hendrik Stoetter
  * - removed "split()" as this function is marked depracted
  * - added property "xfade" (used by IPodMp, phpMp+)
@@ -137,6 +141,7 @@ class mpd {
 	var $uptime;
 	var $playtime;
 	var $db_last_refreshed;
+	var $db_playtime;
 	var $num_songs_played;
 	var $playlist_count;
 	var $xfade;
@@ -1073,7 +1078,7 @@ class mpd {
 				$this->playlist[$item['Pos']]=$item;
 			}
 	   	}
-		
+
         // Set Misc Other Variables
 		$this->state = $status['state'];
 		if ( ($this->state == MPD_STATE_PLAYING) || ($this->state == MPD_STATE_PAUSED) ) {
@@ -1092,6 +1097,7 @@ class mpd {
 
 		$this->volume = $status['volume'];
 		$this->uptime = $stats['uptime'];
+		$this->db_playtime = $stats['db_playtime'];
 		$this->playtime = $stats['playtime'];
 		$this->num_songs_played = $stats['songs'];
 		$this->num_artists = $stats['artists'];
