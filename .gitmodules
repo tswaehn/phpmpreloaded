@@ -1,6 +1,6 @@
 [submodule "web_clients/phpmp"]
 	path = web_clients/phpmp
-	url = git://phpmpreloaded.git.sourceforge.net/gitroot/phpmpreloaded/phpmpreloaded
+	url = git://phpmpreloaded.git.sourceforge.net/gitroot/phpmpreloaded/phpmp
 [submodule "web_clients/mobile.clients/MPD-Web-Remote"]
 	path = web_clients/mobile.clients/MPD-Web-Remote
 	url = git://github.com/tompreston/MPD-Web-Remote.git
