@@ -93,7 +93,9 @@
 		$this->addClient( 'IPodMp', 'ipodmp', 'client by Hendrik Stoetter 03/2008 <a href="http://www.itrium.de/pages/home/mpd_ipod_touch_musikserver_remote_wlan.php?font_size=100" target="_blank">link</a>');
 		
 		$this->addClient( 'MPD-Web-Remote', 'mobile.clients/MPD-Web-Remote', 'client by Thomas Preston <a href="https://github.com/tompreston/MPD-Web-Remote/tree/tswaehn" target="_blank">link</a>');
-		
+
+		$this->addClient( 'hempd', 'hempd', 'client by Andreas Haueise <a href="https://github.com/le-mon-projects/hempd" target="_blank">link</a>');
+
 		//only for testing
 		//$this->addClient( 'mpd.class.test', 'phpMpClassTest', 'test client by tswaehn');		 		
  	}

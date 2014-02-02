@@ -4,4 +4,6 @@
 [submodule "web_clients/mobile.clients/MPD-Web-Remote"]
 	path = web_clients/mobile.clients/MPD-Web-Remote
 	url = git://github.com/tompreston/MPD-Web-Remote.git
-
+[submodule "web_clients/hempd"]
+	path = web_clients/hempd
+	url = https://github.com/le-mon-projects/hempd.git
