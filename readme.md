@@ -24,10 +24,11 @@ Projects which are already included in phpMpReloded:
 
 * Install mpd (music player daemon) https://www.musicpd.org/download.html
 * Install apache (web server with PHP) https://www.apachefriends.org/de/index.html
-* unzip ***hempd*** into your http docs directory
+* unzip ***phpmpreloaded*** into your http docs directory
 * if you like, modify the config *mpd/mpdconfig.php*
 * you will find hempd under http://YOUR_DOMAIN/path/to/hempd/index.php
-* hempd will be your remote control of *mpd*
+* ***phpmpreloaded*** will be your web remote control of *mpd*
+* accessable music player for any wifi client
 	
 Enjoy!
 
@@ -47,8 +48,8 @@ This file is part of the phpReloaded Project
 ## History
 
 v1.3
-  fix: diverse small fixes to comply with PHP7.0
-  add: new client hempd
+* fix: diverse small fixes to comply with PHP7.0
+* add: new client hempd
 
 v1.2a 
-    initial
+* initial
