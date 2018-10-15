@@ -18,7 +18,9 @@
  	include ('./lib/ClientHandler.php');
  
 
-	import_request_variables  ( 'gp', 'url_' );		
+	//import_request_variables  ( 'gp', 'url_' );		
+        extract($_GET, EXTR_PREFIX_ALL, 'url_');
+        extract($_POST, EXTR_PREFIX_ALL, 'url_');
  
  	$clientHandler = new ClientHandler;
  	$news = new NewsReader;

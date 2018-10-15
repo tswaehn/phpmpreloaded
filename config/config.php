@@ -21,7 +21,7 @@
  */
  
  define('__PROJECT__', 'phpMpReloaded');
- define('__VERSION__', '1.2');
+ define('__VERSION__', '1.3');
  
  include('./config/mpd_config.php');
  define('__THEME_DIR__', './themes/'.__THEME__.'/' );
