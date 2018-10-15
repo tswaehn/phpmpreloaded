@@ -32,6 +32,18 @@ This file is part of the phpReloaded Project
   visit us at http://sourceforge.net/projects/phpmpreloaded/
 
 
+        I N S T A L L A T I O N
+
+* Install mpd (music player daemon) https://www.musicpd.org/download.html
+* Install apache (web server with PHP) https://www.apachefriends.org/de/index.html
+* unzip ***hempd*** into your http docs directory
+* if you like, modify the config *mpd/mpdconfig.php*
+* you will find hempd under http://YOUR_DOMAIN/path/to/hempd/index.php
+* hempd will be your remote control of *mpd*
+	
+Enjoy!
+
+
 	H I S T O R Y
 v1.3
   fix: diverse small fixes to comply with PHP7.0
