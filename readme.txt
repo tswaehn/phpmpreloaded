@@ -30,3 +30,8 @@ have any suggestion/question also bug reports go here:
 This file is part of the phpReloaded Project
   visit us at http://sourceforge.net/projects/phpmpreloaded/
 
+
+	H I S T O R Y
+	
+v1.2a 
+	
