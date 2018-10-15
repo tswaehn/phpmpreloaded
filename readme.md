@@ -1,7 +1,7 @@
 
 ...::::::	phpMpReloded	....::::::
 
-	R E A D M E 
+## R E A D M E 
 	
 	
 This seems to be just another PHP Webclient for Music Player Daemon (http://mpd.wikia.com/wiki/). 
@@ -12,14 +12,26 @@ There is a huge number of webclients based on php for mpd out there. The project
 one client collection. So each player is selectable through a nice selector. 
 
 Projects which are already included in phpMpReloded:
-  - phpMp
-  - phpMp+
-  - phpMp2
-  - phpMp3
-  - IPodMp
-  - MPD-Web-Remote
-  - hempd
+* phpMp
+* phpMp+
+* phpMp2
+* phpMp3
+* IPodMp
+* MPD-Web-Remote
+* hempd
 
+## Installation
+
+* Install mpd (music player daemon) https://www.musicpd.org/download.html
+* Install apache (web server with PHP) https://www.apachefriends.org/de/index.html
+* unzip ***hempd*** into your http docs directory
+* if you like, modify the config *mpd/mpdconfig.php*
+* you will find hempd under http://YOUR_DOMAIN/path/to/hempd/index.php
+* hempd will be your remote control of *mpd*
+	
+Enjoy!
+
+## Join the project?
 
 Do you want your webclient include into phpMpReloded?
 	or
@@ -32,19 +44,8 @@ This file is part of the phpReloaded Project
   visit us at http://sourceforge.net/projects/phpmpreloaded/
 
 
-        I N S T A L L A T I O N
+## History
 
-* Install mpd (music player daemon) https://www.musicpd.org/download.html
-* Install apache (web server with PHP) https://www.apachefriends.org/de/index.html
-* unzip ***hempd*** into your http docs directory
-* if you like, modify the config *mpd/mpdconfig.php*
-* you will find hempd under http://YOUR_DOMAIN/path/to/hempd/index.php
-* hempd will be your remote control of *mpd*
-	
-Enjoy!
-
-
-	H I S T O R Y
 v1.3
   fix: diverse small fixes to comply with PHP7.0
   add: new client hempd
