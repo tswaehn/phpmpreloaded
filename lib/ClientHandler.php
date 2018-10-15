@@ -124,9 +124,10 @@
 	function saveSettings( $host, $port ){
 		
 		$text = '<?php
-			$mpd_host	 	= "'.$host.'";
- 			$mpd_port 		= '.$port.';
-		?>';
+// date '.date("c").';
+$mpd_host=  "'.$host.'";
+$mpd_port= "'.$port.'";
+?>';
 		
 		$filename = './config/mpd_config.php';
 		$fh = @fopen( $filename , 'w');

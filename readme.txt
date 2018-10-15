@@ -18,6 +18,7 @@ Projects which are already included in phpMpReloded:
   - phpMp3
   - IPodMp
   - MPD-Web-Remote
+  - hempd
 
 
 Do you want your webclient include into phpMpReloded?
@@ -32,6 +33,9 @@ This file is part of the phpReloaded Project
 
 
 	H I S T O R Y
-	
+v1.3
+  fix: diverse small fixes to comply with PHP7.0
+  add: new client hempd
+
 v1.2a 
-	
+    initial

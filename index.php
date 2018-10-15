@@ -19,9 +19,10 @@
  
 
 	//import_request_variables  ( 'gp', 'url_' );		
-        extract($_GET, EXTR_PREFIX_ALL, 'url_');
-        extract($_POST, EXTR_PREFIX_ALL, 'url_');
- 
+        // ATTENTION !!! final PREFIX will be "url_TEST" instead of "urlTEST" !!!!!
+        extract($_GET, EXTR_PREFIX_ALL, 'url'); 
+        extract($_POST, EXTR_PREFIX_ALL, 'url');
+        
  	$clientHandler = new ClientHandler;
  	$news = new NewsReader;
  	
@@ -33,7 +34,8 @@
 		echo '</div>';
 		
 	echo '<div id="credit">';
-		
+		echo "phpmpreloaded version ".__VERSION__."<br>";
+                
 		// recive news from news server 
 		echo $news->readNews('http://phpmpreloaded.sourceforge.net/NewsProvider/?version='.__VERSION__);
 		
