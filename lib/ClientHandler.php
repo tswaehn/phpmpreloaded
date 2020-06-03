@@ -84,7 +84,7 @@
  	
  	function showAvailableClients(){
  		
-		$this->addClient( 'phpMp', 'phpmp', 'v0.14.0 - the original client');
+		$this->addClient( 'phpMp', 'phpmp', 'v0.14.4 - the original client');
 		$this->addClient( 'phpMp+', 'phpmp+', 'v0.2.3 - client by BohwaZ');
 
 		$this->addClient( 'phpMp2', 'phpmp2', 'v0.11.0 - client by mpd team');
