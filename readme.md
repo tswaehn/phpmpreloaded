@@ -20,6 +20,8 @@ Projects which are already included in phpMpReloded:
 * MPD-Web-Remote
 * hempd
 
+![Test Image 1](ressources/screenshot_client_selector.png)
+
 ## Installation
 
 * Install mpd (music player daemon) https://www.musicpd.org/download.html
@@ -31,6 +33,12 @@ Projects which are already included in phpMpReloded:
 * accessable music player for any wifi client
 	
 Enjoy!
+
+## Screenshots
+
+![Test Image 1](ressources/screenshot_configure.png)
+![Test Image 1](ressources/screenshot_client_hempd.png)
+
 
 ## Join the project?
 
